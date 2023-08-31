@@ -73,10 +73,10 @@ Para executar os exemplos deste projeto, siga os passos abaixo:
    ```sh
    [git clone https://github.com/seu-usuario/seu-projeto.git](https://github.com/euluah/SQUAD04.git)https://github.com/euluah/SQUAD04.git
    ```
-#Navegue até o seu diretório   
+## Navegue até o seu diretório   
    cd seu-projeto
 
-#Execute um dos exemplos:
+## Execute um dos exemplos:
 
 ```sh
    python aula04.py
@@ -86,7 +86,7 @@ Isso executará o exemplo selecionado e você poderá ver o resultado no console
 
 Certifique-se de substituir seu-usuario e seu-projeto pelo nome de usuário e nome do seu repositório no GitHub.
 
-##Conclusão
+## Conclusão
 Espero que este projeto tenha fornecido a você uma compreensão básica sobre o uso de variáveis e funções em Python. Sinta-se à vontade para explorar mais e expandir esses conceitos!
 
 Se tiver alguma dúvida ou sugestão, sinta-se à vontade para entrar em contato.
