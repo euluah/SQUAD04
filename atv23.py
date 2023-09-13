@@ -7,18 +7,21 @@ estados_norte_nordeste = [
 try:
     cep = int(input("Informe o cep (apenas números): "))
     estado = verifica_cep(cep)
-    estado.lower()
-    verificador=False
-
-
-    for uf in estados_norte_nordeste:
-        if estado in uf:
-            verificador= True
-
-    if verificador == True:
-        print(f"O estado de {estado} é elegível para frete")
+    
+    if estado is None:
+        print("CEP não encontrado ou inválido")
     else:
-        print(f"O estado de {estado} não elegível para frete")
+        estado.lower()
+        verificador=False
+
+        for uf in estados_norte_nordeste:
+             if estado in uf:
+                verificador= True
+
+        if verificador == True:
+            print(f"O estado de {estado} é elegível para frete")
+        else:
+            print(f"O estado de {estado} não elegível para frete")
 except ValueError:
     print("O valor fornecido deve ser um número")
 
